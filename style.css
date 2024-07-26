@@ -69,6 +69,7 @@
 .bannar-content-wraper{
     margin-right: 5rem;
     width: 100%;
+    padding: 1rem;
 }
 .bannar-content{
    margin-top: 6rem;
@@ -162,6 +163,22 @@
         color: aliceblue;
         display: block;
         margin-right: 1rem;
+    }
+    .btn-primary {
+        font-size: 1.2rem;
+        font-weight: 600;
+        background-color: #E6533C;
+        border-radius: 45px;
+        border: none;
+        margin-left: -3px;
+        margin-top: 9px;
+        margin-bottom: 2px;
+        padding: 12px 29px;
+    }
+    .btn2{
+        background-color: rgb(33, 33, 33);
+        color: #ffffff;
+        border: 1px solid #ffffff;
     }
     .bannar{
         flex-direction: column;
