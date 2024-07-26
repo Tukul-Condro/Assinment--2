@@ -20,7 +20,7 @@
 .nav-bar-wraper{
     display: flex;
     justify-content: space-between;
-    max-width: 1100px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 10px;
 }
