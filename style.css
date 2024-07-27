@@ -10,6 +10,9 @@
   font-variation-settings:
     "slnt" 0;
 }
+.body-bg{
+    background-color: #B9B9B9;
+}
 /* share style  */
 .nav-title{
     color:#E6533C;
@@ -20,9 +23,22 @@
 .display-flex{
     display: flex;
 }
+.display-grid{
+    display: grid;
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.text-light-gray{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.50);
+}
 /* nav-bar style start */
 .nav-bannar-wraper{
-    background-color: rgb(33, 33, 33);
+    background-color: rgba(17, 17, 17, 1.00);
 }
 .nav-bar-wraper{
     justify-content: space-between;
@@ -68,7 +84,7 @@
 }
 .bannar-content-wraper{
     margin-right: 5rem;
-    width: 100%;
+    width: 92%;
     padding: 1rem;
 }
 .bannar-content{
@@ -151,10 +167,60 @@
     margin-top: -25rem;
 }
 /* bannar style end  */
+
+/* main style start */
+.main-wraper{
+    background-color: #080808;
+}
+.main-frist-section{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+/* change-habit style  */
+.title-des>h1{
+   margin-bottom: .8rem;  
+}
+.title-des>p{
+    padding-bottom: 3.5rem;
+}
+/* exercise-container style  */
+.exercise-container{
+grid-template-columns: repeat(4,1fr);
+gap: 1.5rem;
+width: 100%;
+}
+.exer-img{
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.img-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 2.9rem;
+}
+.exer-content>p{
+    margin-top: .5rem;
+    padding-bottom: 6rem;
+}
+/* main style end  */
 @media screen and (max-width:576px) {
     .nav-title{
         margin-top:2rem;
         margin-left: 1rem;
+    }
+    .section-title{
+        font-size: 2rem;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+    .text-light-gray{
+        font-size: .9rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.50);
+        padding: 0 2.5rem;
     }
     .nav-items{
         display: none;
@@ -207,7 +273,7 @@
     font-weight: 900;
     color: #FAFAF9;
     width: 9rem;
-    height: 5rem;
+    height: 6rem;
     border-radius: .8rem;
     margin-left: 12rem;
     margin-top: -30rem;
@@ -218,5 +284,8 @@
         color: #E6533C;
         margin-top: 26rem;
         margin-left: -5rem;
+    }
+    .exercise-container{
+        grid-template-columns:1fr;
     }
 }
