@@ -53,7 +53,7 @@
 }
 .nav-btn{
     color: rgba(255, 255, 255, 1.00);
-    background-color: rgb(33, 33, 33);
+    background-color: rgba(17, 17, 17, 1.00);
     border: none;
     padding: 4px;
     margin: 10px;
@@ -63,6 +63,7 @@
 .btn-primary{
     font-size: 1.2rem;
     font-weight: 600;
+    color: #FFFFFF;
     background-color: #E6533C;
     border-radius: 43px;
     border: none;
@@ -205,8 +206,46 @@ width: 100%;
     margin-top: .5rem;
     padding-bottom: 6rem;
 }
+/* run-wraper style  */
+.run-wraper{
+    width: 1100px;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1.00);
+    border-radius: 18px;
+}
+.run-contents{
+    padding: 40px 165px 40px 54px;
+}
+.run-content>h1{
+    margin-bottom: .8rem;
+}
+.run-content{
+    width: 100%;
+}
+.run-content>p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.run-contents>button{
+   margin-bottom: 0;
+}
+.run-img{
+    width: 100%;
+}
+.run-img>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 18px;
+    margin: 45px 40px 20px 0;
+}
+
 /* main style end  */
 @media screen and (max-width:576px) {
+    .bannar,
+    .run-wraper{
+        flex-direction: column;
+    }
+    /* nav-bar  */
     .nav-title{
         margin-top:2rem;
         margin-left: 1rem;
@@ -246,9 +285,7 @@ width: 100%;
         color: #ffffff;
         border: 1px solid #ffffff;
     }
-    .bannar{
-        flex-direction: column;
-    }
+    /* bannar  */
     .title-bold {
         font-size: 2.23rem;
         font-weight: 900;
@@ -285,8 +322,28 @@ width: 100%;
         margin-top: 26rem;
         margin-left: -5rem;
     }
+    /* exercise  */
     .exercise-container{
         grid-template-columns:1fr;
         padding-bottom: 4rem;
+    }
+    /* run an Extra  */
+    .run-wraper{
+        width: 100%;
+    }
+    .run-contents {
+        padding: 30px 33px 25px 33px;
+    }
+     .run-contents>button {
+            width: 100%; 
+    }
+    .run-img{
+        width: 89%;
+    }
+    .run-img>img {
+        width: 100%;
+        height: 100%;
+        border-radius: 18px;
+        margin: 29px 26px 26px 20px;
     }
 }
