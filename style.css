@@ -330,7 +330,9 @@ width: 100%;
     }
     /* run an Extra  */
     .run-wraper{
-        width: 100%;
+        width: 92%;
+        margin-left: 17px;
+        margin-right: 13px;
     }
     .run-contents {
         padding: 30px 33px 25px 33px;
