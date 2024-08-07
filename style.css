@@ -36,6 +36,12 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 0.50);
 }
+.title-des>h1{
+    margin-bottom: .8rem;  
+ }
+ .title-des>p{
+     padding-bottom: 3.5rem;
+ }
 /* nav-bar style start */
 .nav-bannar-wraper{
     background-color: rgba(17, 17, 17, 1.00);
@@ -181,17 +187,13 @@
     padding-top: 2rem;
 }
 /* change-habit style  */
-.title-des>h1{
-   margin-bottom: .8rem;  
-}
-.title-des>p{
-    padding-bottom: 3.5rem;
-}
+
 /* exercise-container style  */
 .exercise-container{
 grid-template-columns: repeat(4,1fr);
 gap: 1.5rem;
 width: 100%;
+margin-bottom: 5rem;
 }
 .exer-img{
     border: 1px solid gray;
@@ -205,7 +207,7 @@ width: 100%;
 }
 .exer-content>p{
     margin-top: .5rem;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
 }
 /* run-wraper style  */
 .run-wraper{
@@ -239,6 +241,18 @@ width: 100%;
     border-radius: 18px;
     margin: 45px 40px 20px 0;
 }
+/* bmi-calculetor style  */
+.bmi-title-des{
+    max-width: 1100px;
+    margin:  0 24rem;
+    padding-top: 5rem;
+}
+th,td{
+    color: #B9B9B9;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
 
 /* main style end  */
 @media screen and (max-width:576px) {
@@ -326,7 +340,7 @@ width: 100%;
     /* exercise  */
     .exercise-container{
         grid-template-columns:1fr;
-        padding-bottom: 4rem;
+        padding-bottom: 2rem;
     }
     /* run an Extra  */
     .run-wraper{
