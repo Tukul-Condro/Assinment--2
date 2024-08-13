@@ -42,6 +42,10 @@
  .title-des>p{
      padding-bottom: 3.5rem;
  }
+ .full-bg{
+    width: 100%;
+    background-color: rgba(34, 34, 34, 1.00);
+ }
 /* nav-bar style start */
 .nav-bannar-wraper{
     background-color: rgba(17, 17, 17, 1.00);
@@ -85,7 +89,8 @@
 }
 /* nav-bar style end  */
 /* bannar style start */
-.bannar{
+.bannar,
+.footer-wraper{
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -246,15 +251,6 @@ margin-bottom: 5rem;
     margin:  0 28%;
     padding-top: 5rem;
 }
-.bmi-wraper{
-    width: 100%;
-    background-color: rgba(34, 34, 34, 1.00);
-}
-.bmi-content{
-    max-width: 1100px;
-    margin: 0 auto;
-    
-}
 .bmi-h3{
     font-size: 1.8rem;
     font-weight: 900;
@@ -310,6 +306,7 @@ input,select{
 .our-team{
     max-width: 1100px;
     margin: 0 auto;
+    padding-bottom: 3rem;
 }
 .team-title-des{ 
     text-align: center;
@@ -317,7 +314,6 @@ input,select{
     margin:0 20%;
 }
 .teams{
-   
     background-color:  rgba(34, 34, 34, 1.00);
     grid-template-columns: repeat(3,1fr);
     gap: 1.25rem;
@@ -346,6 +342,46 @@ input,select{
 }
 .member h4{
     color: #FAFAF9;
+}
+/* footer style  */
+.footer{
+    padding-bottom: 3rem;
+}
+.footer-wraper{
+    padding-top: 2rem;
+}
+.footer-titile-des{
+    width: 50%;
+    padding-bottom: 2.5rem;
+}
+.footer-title{
+    color:#E6533C;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+.footer-titile-des p{
+    padding-top: 1.25rem;
+}
+.footer-contents{
+    justify-content: space-between;
+    width: 40%;
+}
+.footer-h2{
+    color: #FFFFFF;
+}
+.footer-p p{
+    padding-top: 1rem;
+}
+.footer-p a{
+    font-size: .9rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+}
+.hr{
+    max-width: 1100px;
+    margin: 0 auto;
+    color:rgba(255, 255, 255, 0.10);
 }
 
 /* main style end  */
