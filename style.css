@@ -14,6 +14,10 @@
     background-color: #B9B9B9;
 }
 /* share style  */
+.max-width{
+    max-width: 1100px;
+    margin: 0 auto;
+}
 .nav-title{
     color:#E6533C;
     font-size: 2.8rem;
@@ -89,11 +93,6 @@
 }
 /* nav-bar style end  */
 /* bannar style start */
-.bannar,
-.footer-wraper{
-    max-width: 1100px;
-    margin: 0 auto;
-}
 .bannar-content-wraper{
     margin-right: 5rem;
     width: 92%;
@@ -186,8 +185,6 @@
     padding-bottom: 100px;
 }
 .main-frist-section{
-    max-width: 1100px;
-    margin: 0 auto;
     text-align: center;
     padding-top: 2rem;
 }
@@ -216,8 +213,6 @@ margin-bottom: 5rem;
 }
 /* run-wraper style  */
 .run-wraper{
-    width: 1100px;
-    margin: 0 auto;
     background-color: rgba(34, 34, 34, 1.00);
     border-radius: 18px;
 }
@@ -304,8 +299,6 @@ input,select{
 
 /* our team style  */
 .our-team{
-    max-width: 1100px;
-    margin: 0 auto;
     padding-bottom: 3rem;
 }
 .team-title-des{ 
@@ -327,13 +320,14 @@ input,select{
     width: 21rem;
     height: 20rem;
     position: relative;
-   opacity: .8;
+   
     
 }
 .member img{
    width: 100%;
    height: 100%;
-    border-radius: 1rem;   
+    border-radius: 1rem;
+    opacity:.8;  
 }
 .trainer-name{
     position: absolute;
@@ -364,7 +358,8 @@ input,select{
 }
 .footer-contents{
     justify-content: space-between;
-    width: 40%;
+    width: 45%;
+    margin-left: 3rem;
 }
 .footer-h2{
     color: #FFFFFF;
@@ -381,7 +376,7 @@ input,select{
 .hr{
     max-width: 1100px;
     margin: 0 auto;
-    color:rgba(255, 255, 255, 0.10);
+    opacity: .2;
 }
 
 /* main style end  */
@@ -452,14 +447,14 @@ input,select{
     }
     .card-2{
         background-color: rgba(255, 255, 255, 0.10);
-    font-size: 1.8rem;
-    font-weight: 900;
-    color: #FAFAF9;
-    width: 9rem;
-    height: 6rem;
-    border-radius: .8rem;
-    margin-left: 12rem;
-    margin-top: -30rem;
+        font-size: 1.8rem;
+        font-weight: 900;
+        color: #FAFAF9;
+        width: 9rem;
+        height: 6rem;
+        border-radius: .8rem;
+        margin-left: 12rem;
+        margin-top: -30rem;
     }
     .svg>svg{
         width: 2rem;
