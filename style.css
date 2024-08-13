@@ -243,8 +243,7 @@ margin-bottom: 5rem;
 }
 /* bmi-calculetor style  */
 .bmi-title-des{
-    max-width: 1100px;
-    margin:  0 24rem;
+    margin:  0 28%;
     padding-top: 5rem;
 }
 .bmi-wraper{
@@ -296,7 +295,7 @@ td{
     grid-template-columns: repeat(1fr);
 }
 input,select{
-    padding: .8rem 1rem;
+    padding: 1.4rem 1rem;
     border-radius: .8rem;
     border: none;
     background-color: #525151ad;
@@ -332,6 +331,7 @@ input,select{
     width: 21rem;
     height: 20rem;
     position: relative;
+   opacity: .8;
     
 }
 .member img{
