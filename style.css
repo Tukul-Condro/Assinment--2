@@ -339,7 +339,7 @@ input,select{
 }
 /* footer style  */
 .footer{
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
 }
 .footer-wraper{
     padding-top: 2rem;
@@ -377,6 +377,10 @@ input,select{
     max-width: 1100px;
     margin: 0 auto;
     opacity: .2;
+}
+.copyright{
+    margin-top: 2.5rem;
+    text-align: center;
 }
 
 /* main style end  */
